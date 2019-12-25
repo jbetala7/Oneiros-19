@@ -1,0 +1,16 @@
+
+canvas{
+  align-self: auto;
+  margin-left: 25px;
+  margin-right: auto;
+  background: transparent;
+  width: 80vw;
+  height: 80vh;
+  margin-top: 175px;
+}
+input{
+  visibility: hidden
+ 
+
+}
+

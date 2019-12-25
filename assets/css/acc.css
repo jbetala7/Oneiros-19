@@ -1,0 +1,65 @@
+h2{
+ color:  rgb(32, 163, 180);
+  /* padding-top: 75px ; */
+  font-weight: 500;
+   font-size: 2.8rem;
+}
+
+.accli {
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 2;
+}
+
+body {
+	background: #2980b9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: "Nunito", sans-serif;
+}
+
+
+#wrapper{
+    position: relative;
+}
+
+.text{
+    
+    position: relative;
+    z-index: 1;
+}
+
+.background{
+
+    background-color: black;
+    width: 400%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: black;
+}
+
+@media (max-width: 1200px) 
+{
+    h2{
+        font-size: 2rem;
+
+    }
+
+    .accli{
+        font-size: 0.7rem;
+    }
+    .fp-controlArrow {
+        visibility: hidden;
+    }
+    #fp-nav ul,
+    .fp-slidesNav ul {
+        margin-left: 38.5vw !important;
+    }
+
+
+}

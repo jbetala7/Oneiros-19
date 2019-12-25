@@ -1,0 +1,22 @@
+{
+  "short_name": "Oneiros",
+  "name": "Oneiros'19",
+  "icons": [
+    {
+      "src": "assets/img/favicon.png",
+      "type": "image/png",
+      "sizes": "440x440"
+    },
+    {
+      "src": "assets/img/pwa192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "index.php",
+  "background_color": "black",
+  "display": "standalone",
+  "theme_color": "black",
+  "orientation": "portrait",
+  "prefer_related_applications": true
+} 

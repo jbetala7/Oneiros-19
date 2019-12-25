@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600");
+
+.title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-family: "Montserrat";
+  text-align: center;
+  width: 100%;
+}
+.title h1 {
+  position: relative;
+  z-index: 5;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 60px;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+.title h1 span {
+  font-weight: 600;
+  font-size: 60px;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+.title h3 {
+  font-weight: 200;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+}
+
+canvas {
+  z-index: -1;
+  position: absolute;
+  background: black;
+  top :0%;
+  left:0%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translateZ(1px);
+  transform: translateZ(1px);
+}
