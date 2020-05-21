@@ -1,4 +1,7 @@
 <?php
+//$username = 'u469526795_oneiros';
+//$pass = 'oneiros';
+//$dbname = 'u469526795_oneiros';
 $username = 'root';
 $pass = '';
 $dbname = 'oneiros19';
